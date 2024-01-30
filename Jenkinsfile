@@ -5,10 +5,10 @@ pipeline {
 	}
 	
 	environment {
-		PROJECT_ID = 'jenkins-296812'
-                CLUSTER_NAME = 'k8s-cluster'
-                LOCATION = 'us-central1-c'
-                CREDENTIALS_ID = 'kubernetes'		
+		PROJECT_ID = 'terraform-gcp-410710'
+                CLUSTER_NAME = 'cluster-2'
+                LOCATION = 'europe-west3'
+                CREDENTIALS_ID = 'Terraform GCP'		
 	}
 	
     stages {
