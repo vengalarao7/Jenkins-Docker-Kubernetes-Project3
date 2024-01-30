@@ -8,7 +8,7 @@ pipeline {
 		PROJECT_ID = 'terraform-gcp-410710'
                 CLUSTER_NAME = 'cluster-2'
                 LOCATION = 'europe-west3'
-                CREDENTIALS_ID = 'Terraform GCP'		
+                CREDENTIALS_ID = 'terraform'		
 	}
 	
     stages {
