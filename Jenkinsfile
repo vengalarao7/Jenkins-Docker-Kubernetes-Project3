@@ -47,6 +47,7 @@ pipeline {
 				    withCredentials([string(credentialsId: 'dockerhub', variable: 'dockerhub')]) {
             				sh "docker login -u vengalarao7 -p ${dockerhub}"
 					sh "docker push vengalarao7/devops:${env.BUILD_ID}"
+					sh "docker images"
 				    } 
 			    }
 		    }
